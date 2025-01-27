@@ -1,15 +1,24 @@
-div {
-    background-color: aquamarine;
-    background-image: url(img/pattern.png)
+#banner {
+    background-color: rgb(102, 144, 233);
+    background-image: url(../img/pattern.png);
     height: 100px;
     background-size: 30%;
-
-
-
+    background-repeat: repeat;
 }
 
-img {
-    height: 100px;
-    
+#logo {
+    height: 40px;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
 
+.font {
+    font-size: 12px;
+}
+
+.gray {
+    color: grey;
+}
+.blue {
+    color: rgb(35, 130, 219);
 }
