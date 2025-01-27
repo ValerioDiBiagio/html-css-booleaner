@@ -4,12 +4,19 @@
     height: 100px;
     background-size: 30%;
     background-repeat: repeat;
+    position: relative;
 }
 
 #logo {
     height: 40px;
     margin-right: 0%;
     margin-bottom: 0%;
+}
+
+#banner > #logo {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
 }
 
 .font {
@@ -25,14 +32,12 @@
 
 .evidenziato {
     background-color: yellow;
-
 }
 
 #riga1 {
     background-color: rgb(14, 85, 238);
     font-size: 15px;
     color: white;
-    
 }
 
 .lightblue {
@@ -41,4 +46,31 @@
 
 .size {
     width: 50%;
+}
+
+
+.container {
+    position: relative;
+    text-align: left;
+    color: rgb(243, 237, 237);
+}
+
+
+.textimg {
+    position: absolute;
+    left: 5%;
+    top: 0%;
+}
+
+ 
+.container2 {
+    position: relative;
+    text-align: left;
+    color: rgb(243, 237, 237);
+    }
+
+.textimg2 {
+    position: absolute;
+    left: 5%;
+    top: 0%;
 }
