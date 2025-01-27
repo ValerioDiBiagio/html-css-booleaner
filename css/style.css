@@ -22,3 +22,8 @@
 .blue {
     color: rgb(35, 130, 219);
 }
+
+.evidenziato {
+    background-color: yellow;
+
+}
